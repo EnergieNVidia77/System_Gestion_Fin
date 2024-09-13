@@ -4,7 +4,7 @@
     {
         public const decimal MAX_OP = 10000;
 
-        public bool isValid(Transaction transaction, decimal solde)
+        public bool IsValid(Transaction transaction, decimal solde)
         {
             if(transaction.TypeTransaction == TypeTransaction.Credit && transaction.Montant > MAX_OP)
             {

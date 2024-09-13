@@ -2,6 +2,6 @@
 {
     public interface IValidator
     {
-        public bool isValid(Transaction transaction, decimal solde);
+        public bool IsValid(Transaction transaction, decimal solde);
     }
 }

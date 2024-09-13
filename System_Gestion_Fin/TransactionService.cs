@@ -15,7 +15,7 @@
         {
             foreach (var validator in _validators)
             {
-                if (!validator.isValid(transaction, _solde))
+                if (!validator.IsValid(transaction, _solde))
                 {
                     Console.WriteLine("Transaction refusé : {0}", transaction.Description);
                     return;
